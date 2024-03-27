@@ -1,0 +1,215 @@
+# theme = "Eighties.dark"
+
+[colors]
+draw_bold_text_with_bright_colors = false
+
+[colors.bright]
+black = "#747369"
+blue = "#6699cc"
+cyan = "#66cccc"
+green = "#99cc99"
+magenta = "#cc99cc"
+red = "#f2777a"
+white = "#f2f0ec"
+yellow = "#ffcc66"
+
+[colors.cursor]
+cursor = "#d3d0c8"
+text = "#2d2d2d"
+
+[colors.normal]
+black = "#2d2d2d"
+blue = "#6699cc"
+cyan = "#66cccc"
+green = "#99cc99"
+magenta = "#cc99cc"
+red = "#f2777a"
+white = "#d3d0c8"
+yellow = "#ffcc66"
+
+[colors.primary]
+background = "#2d2d2d"
+foreground = "#d3d0c8"
+
+[env]
+TERM = "alacritty"
+
+[font]
+size = 14.0
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "JetBrainsMono Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "ToggleSimpleFullscreen"
+key = "Return"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006v"
+key = "D"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006s"
+key = "D"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006x"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0015"
+key = "Back"
+mods = "Super"
+
+[[keyboard.bindings]]
+chars = "\u0006h"
+key = "Left"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006k"
+key = "Up"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006j"
+key = "Down"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006l"
+key = "Right"
+mods = "Command|Shift"
+
+[[keyboard.bindings]]
+chars = "\u0006c"
+key = "T"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00061"
+key = "Key1"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00062"
+key = "Key2"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00063"
+key = "Key3"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00064"
+key = "Key4"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00065"
+key = "Key5"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00066"
+key = "Key6"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00067"
+key = "Key7"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00068"
+key = "Key8"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u00069"
+key = "Key9"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006g"
+key = "K"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006H"
+key = "Left"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006J"
+key = "Down"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006K"
+key = "Up"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u0006L"
+key = "Right"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+# [mouse.hints]
+# modifiers = "Command"
+
+# [mouse.hints.launcher]
+# program = "open"
+
+[scrolling]
+history = 50000
+multiplier = 3
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[shell]
+args = ["-l", "-c", "tmux attach || tmux"]
+program = "/bin/zsh"
+
+[window]
+decorations = "none"
+opacity = 0.85
+startup_mode = "SimpleFullscreen"
+
+[window.dimensions]
+columns = 0
+lines = 0
+
+[window.padding]
+x = 10
+y = 10
